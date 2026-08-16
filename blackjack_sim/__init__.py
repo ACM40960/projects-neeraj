@@ -16,3 +16,10 @@ from .analysis import (
     SimulationSummary,
     summarise_simulation,
 )
+from .validation import (
+    EXPECTED_NATURAL_BLACKJACK_RATE,
+    NaturalBlackjackValidation,
+    calculate_convergence,
+    save_validation_outputs,
+    validate_natural_blackjack_rate,
+)
