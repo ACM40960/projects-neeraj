@@ -12,3 +12,7 @@ from .strategies import (
 )
 from .game import PlayedRound, deal_initial_hands, play_round
 from .simulation import SimulationResult, run_simulation
+from .analysis import (
+    SimulationSummary,
+    summarise_simulation,
+)
