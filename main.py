@@ -1,5 +1,4 @@
-def main():
-    print("Blackjack simulation project is ready.")
+from blackjack_sim.cli import main
 
 
 if __name__ == "__main__":
